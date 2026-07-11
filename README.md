@@ -20,8 +20,8 @@ The simulation uses `rtl/tbench.sv` (`tb_cpu_top`) to run verification programs.
 <img width="2218" height="1158" alt="wave" src="https://github.com/user-attachments/assets/66475a08-6e8a-4c78-934d-504eee10a0b2" />
 
 
-### Timing Analysis Results (OpenLane / LibreLane Flow)
-Physical-design and timing reports from the ASIC flow using LibreLane/OpenLane.
+### Timing Analysis Results (LibreLane Flow)
+Physical-design and timing reports from the ASIC flow using LibreLane.
 
 <img width="1625" height="370" alt="timing" src="https://github.com/user-attachments/assets/410966d4-4a96-4633-b10b-ab0a15c2d5f5" />
 

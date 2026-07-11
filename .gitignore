@@ -1,0 +1,22 @@
+# generated
+build/
+sim/
+obj_dir*/
+*.vvp
+*.vcd
+*.wlf
+*.log
+transcript
+*.o
+*.elf
+*.bin
+*.hex
+
+# keep optional folder skeleton
+modelsim/*
+!modelsim/.gitkeep
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,15 @@
+rtl/core/alu.sv
+rtl/core/branch_unit.sv
+rtl/core/control_unit.sv
+rtl/core/imm_gen.sv
+rtl/core/regfile.sv
+rtl/mem/data_mem.sv
+rtl/mem/instr_mem.sv
+rtl/pipeline/if_id.sv
+rtl/pipeline/id_ex.sv
+rtl/pipeline/ex_mem.sv
+rtl/pipeline/mem_wb.sv
+rtl/pipeline/forwarding_unit.sv
+rtl/pipeline/hazard_unit.sv
+rtl/top/cpu_top.sv
+rtl/tbench.sv

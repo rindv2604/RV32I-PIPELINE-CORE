@@ -1,0 +1,53 @@
+{
+  "DESIGN_NAME": "cpu_top",
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 25.0,
+
+  "VERILOG_FILES": [
+    "dir::../rtl/core/*.sv",
+    "dir::../rtl/pipeline/*.sv",
+    "dir::../rtl/mem/*.sv",
+    "dir::../rtl/top/*.sv"
+  ],
+  "VERILOG_DEFINES": ["__pnr__"],
+
+  "PNR_SDC_FILE": "dir::base.sdc",
+  "SIGNOFF_SDC_FILE": "dir::base.sdc",
+
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 1400 1400",
+  "FP_CORE_UTIL": 35,
+  "PL_TARGET_DENSITY_PCT": 40,
+
+  "VDD_NETS": ["vccd1"],
+  "GND_NETS": ["vssd1"],
+
+  "SYNTH_STRATEGY": "DELAY 0",
+  "SYNTH_SIZING": true,
+  "SYNTH_HIERARCHY_MODE": "deferred_flatten",
+  "MAX_FANOUT_CONSTRAINT": 4,
+
+  "EXTRA_VERILOG_MODELS": [
+    "dir::sky130_sram_1kbyte_1rw1r_32x256_8.blackbox.v"
+  ],
+  "EXTRA_LEFS": [
+    "/home/rin/.ciel/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.ref/sky130_sram_macros/lef/sky130_sram_1kbyte_1rw1r_32x256_8.lef"
+  ],
+  "EXTRA_GDS": [
+    "/home/rin/.ciel/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.ref/sky130_sram_macros/gds/sky130_sram_1kbyte_1rw1r_32x256_8.gds"
+  ],
+  "EXTRA_LIBS": [
+    "/home/rin/.ciel/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.ref/sky130_sram_macros/lib/sky130_sram_1kbyte_1rw1r_32x256_8_TT_1p8V_25C.lib"
+  ],
+  "MACRO_PLACEMENT_CFG": "dir::macro_placement.cfg",
+  "FP_MACRO_HORIZONTAL_HALO": 15,
+  "FP_MACRO_VERTICAL_HALO": 15,
+  "PDN_MACRO_CONNECTIONS": [
+    "u_data_mem.u_dmem vccd1 vssd1 vccd1 vssd1"
+  ],
+
+  "RUN_LINTER": false,
+  "RUN_LVS": false,
+  "RUN_MAGIC_DRC": false,
+  "ERROR_ON_MAGIC_DRC": false
+}

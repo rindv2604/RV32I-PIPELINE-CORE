@@ -1,0 +1,47 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Sat Jul 11 05:55:00 2026
+[*]
+[dumpfile] "/home/rin/eda/librelane/my_design/rv32i-pipeline-core/build/reference_program.vcd"
+[dumpfile_mtime] "Sat Jul 11 05:42:25 2026"
+[dumpfile_size] 23458
+[savefile] "/home/rin/eda/librelane/my_design/rv32i-pipeline-core/modelsim/signals.gtkw"
+[timestart] 0
+[size] 1852 799
+[pos] -27 -24
+*-14.619702 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_cpu_top.
+[treeopen] tb_cpu_top.dut.
+[sst_width] 278
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 339
+@28
+tb_cpu_top.clk
+tb_cpu_top.rst_n
+@22
+tb_cpu_top.dut.pc_q[31:0]
+tb_cpu_top.dut.pc_debug[31:0]
+@28
+tb_cpu_top.dut.instr_valid
+@22
+tb_cpu_top.dut.id_instr[31:0]
+tb_cpu_top.dut.ex_instr[31:0]
+tb_cpu_top.dut.mem_instr[31:0]
+tb_cpu_top.dut.wb_instr[31:0]
+tb_cpu_top.dut.mem_alu_result[31:0]
+@28
+tb_cpu_top.dut.forward_a[1:0]
+tb_cpu_top.dut.forward_b[1:0]
+@22
+tb_cpu_top.dut.u_regfile.wd[31:0]
+tb_cpu_top.dut.u_regfile.rd1[31:0]
+tb_cpu_top.dut.u_regfile.rd2[31:0]
+tb_cpu_top.dut.u_regfile.rd[4:0]
+tb_cpu_top.dut.u_regfile.rs1[4:0]
+tb_cpu_top.dut.u_regfile.rs2[4:0]
+@28
+tb_cpu_top.dut.u_regfile.rst_n
+tb_cpu_top.dut.u_regfile.we
+[pattern_trace] 1
+[pattern_trace] 0

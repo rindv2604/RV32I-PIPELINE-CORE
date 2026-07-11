@@ -1,4 +1,4 @@
-# generated
+# Build & simulation artifacts
 build/
 sim/
 obj_dir*/
@@ -12,11 +12,25 @@ transcript
 *.bin
 *.hex
 
-# keep optional folder skeleton
-modelsim/*
-!modelsim/.gitkeep
+# Waveform Configuration (Keep signals.gtkw)
+waveform/*
+!waveform/signals.gtkw
+!waveform/.gitkeep
 
 # IDE/OS
 .vscode/
 .idea/
 .DS_Store
+
+# Git
+.git/
+.agents/
+
+# Temp files
+*~
+*.swp
+*.swo
+
+# LibreOSCAD runs (optional - very large)
+librelane/runs/
+librelane/tmp/

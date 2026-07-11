@@ -47,7 +47,7 @@ wave: $(SIM)
 		+VCD=$(WAVE)
 
 view-wave: wave
-	$(GTKWAVE) $(WAVE) modelsim/wave.sav &
+	$(GTKWAVE) $(WAVE) modelsim/signals.gtkw &
 
 librelane-synth:
 	nix-shell $(LIBRELANE_ROOT)/shell.nix --run \

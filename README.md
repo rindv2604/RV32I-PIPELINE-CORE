@@ -14,7 +14,7 @@ A 5-stage pipelined RISC-V RV32I processor core designed in SystemVerilog.
 
 ## Toolchain & Simulation Results
 
-### Simulation Icarus Verilog
+### Simulation on Icarus Verilog
 The simulation uses `rtl/tbench.sv` (`tb_cpu_top`) to run verification programs.
 
 <img width="2218" height="1158" alt="wave" src="https://github.com/user-attachments/assets/66475a08-6e8a-4c78-934d-504eee10a0b2" />
